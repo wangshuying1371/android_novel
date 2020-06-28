@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item android:id="@+id/about"
+        android:icon="@drawable/mark"
+        android:title="search"
+        app:showAsAction="always"/>-->
+    <item
+        android:id="@+id/menu_add_mark"
+        android:icon="@drawable/add_mark"
+        android:title="添加书签"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/menu_my_mark"
+        android:icon="@drawable/my_mark"
+        android:title="我的书签"
+        app:showAsAction="always"
+        />
+
+</menu>

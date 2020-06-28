@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Novel17</string>
+
+    <string name="bookpop_catalog">目录</string>
+    <string name="bookpop_size">设置</string>
+    <string name="bookpop_light">亮度</string>
+    <string name="bookpop_mark">书签</string>
+    <string name="bookpop_skip">跳转</string>
+    <string name="bookpop_download">缓存</string>
+    <!-- in.xml -->
+    <string name="in_refush">刷新</string>
+</resources>

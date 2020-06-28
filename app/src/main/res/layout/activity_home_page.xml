@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/three"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio_novel17"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/selector_top"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="17K小说网"
+            android:textStyle="bold"
+            android:textColor="@drawable/selector_textcolor"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_biQuGe"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_top"
+            android:layout_gravity="center"
+            android:button="@null"
+            android:drawablePadding="-5dp"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="新笔趣阁"
+            android:textStyle="bold"
+            android:textColor="@drawable/selector_textcolor"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_tianShu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_top"
+            android:layout_gravity="center"
+            android:button="@null"
+            android:drawablePadding="-5dp"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="纵横中文网"
+            android:textStyle="bold"
+            android:textColor="@drawable/selector_textcolor"
+
+            />
+
+    </RadioGroup>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

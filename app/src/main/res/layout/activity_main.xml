@@ -1,0 +1,63 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/three"
+    tools:context=".activity.MainActivity">
+
+    <RadioGroup
+        android:id="@+id/view_main_radio"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/view_radio_app"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="书架"
+            android:textSize="12sp"
+            android:drawableTop="@drawable/selector_shelf"
+            android:textColor="@drawable/selector_textcolor"
+            />
+
+        <RadioButton
+            android:id="@+id/view_radio_connect"
+            android:button="@null"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:gravity="center"
+            android:text="书城"
+            android:textSize="12sp"
+            android:drawableTop="@drawable/selector_book"
+            android:textColor="@drawable/selector_textcolor"
+            android:layout_width="0dp" />
+
+        <RadioButton
+            android:id="@+id/view_radio_self"
+            android:button="@null"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/selector_self"
+            android:gravity="center"
+            android:text="我的"
+            android:textSize="12sp"
+            android:textColor="@drawable/selector_textcolor"
+            android:layout_width="0dp" />
+
+    </RadioGroup>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/view_main_radio" >
+    </androidx.viewpager.widget.ViewPager>
+
+</RelativeLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+
+    <color name="screen">#CEEBCD</color>
+    <color name="a">#FFCEEBCD</color>
+    <color name="blue">#2696cd</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="item_title">#2c3a57</color>
+    <color name="item_middle">#1c7abb</color>
+    <color name="item_bottom">#166ba2</color>
+    <color name="title_bg">#171e30</color>
+    <color name="selected">#004674</color>
+    <color name="main_bg">#171e30</color>
+    <color name="view">#36b3e3</color>
+    <color name="orage_bgSelector">#e67200</color>
+    <color name="gray_text">#6b6b6b</color>
+    <color name="downtopblue">#33b5e5</color>
+    <color name="bgcolor">#68cbeb</color>
+    <color name="dialogbg">#00000000</color>
+    <color name="linecolor">#cac8c8</color>
+    <color name="vlinecolor">#00506B</color>
+    <color name="topblue">#008fbf</color>
+    <color name="transfer_dialog_title">#aef420</color>
+    <color name="dark_green">#006633</color>
+    <color name="brown">#947400</color>
+    <!-- 棕色 -->
+
+    <color name="aaa">#FFAAAAAA</color>
+    <color name="bbb">#333333</color>
+    <color name="ccc">#b0333333</color>
+    <color name="ddd">#ff111111</color>
+
+    <!-- 流量统计的颜色 -->
+    <color name="first_gray">#8ba0ac</color>
+    <color name="seconde_red">#ff7428</color>
+    <color name="third_blue">#28b1ff</color>
+    <color name="fourth_green">#3ac128</color>
+
+    <!-- 石蓝色 -->
+    <color name="dimgray">#696969</color>
+    <color name="text_button">#FF3F3F3F</color>
+    <color name="bg_default">#FFBABABA</color>
+    <color name="bg_titlebar">#FF888888</color>
+    <color name="text_default">#FF505050</color>
+    <color name="text_alarm">#FF506650</color>
+    <color name="text_tip">#FFA0A0A0</color>
+    <color name="nfc_bg">#f2f6f8</color>
+    <color name="qingjing_unpress">#ffab17</color>
+    <color name="qingjing_press">#e99500</color>
+    <color name="ziliao_unpress">#ec5b96</color>
+    <color name="ziliao_press">#e33079</color>
+    <color name="nfcread_unpress">#01aef0</color>
+    <color name="nfcread_press">#009fdc</color>
+    <color name="nfcwrite_unpress">#0054a5</color>
+    <color name="nfcwrite_press">#003c75</color>
+    <color name="tran_pink">#ec5b95</color>
+    <color name="tran_welcome_bg">#efefef</color>
+    <color name="qingjing_bg">#efefef</color>
+    <color name="vline2color">#666666</color>
+    <color name="qingjing_number">#cacaca</color>
+    <color name="gridview_background_1">#F0F0F0</color>
+    <color name="gridview_background_2">#FFFFFF</color>
+    <color name="divide_line">#cccccc</color>
+    <color name="menu_text">#707a87</color>
+    <color name="transfer_main_bg">#ebebeb</color>
+    <color name="transfer_line">#a6a6a6</color>
+    <color name="green">#77B700</color>
+
+    <!-- 条码扫描 包括二维码等 -->
+    <color name="bg_color">#EDEDED</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="header">#58567D</color>
+    <color name="grgray">#686868</color>
+
+    <!-- myself -->
+    <color name="cancel_green">#006633</color>
+    <color name="line_color">#A6A6A6</color>
+    <color name="gray_line">#E0E0E0</color>
+    <color name="nfc_cancle">#F3F3F3</color>
+    <color name="back_color">#EDEDED</color>
+    <color name="add_conditon">#fdfdfd</color>
+    <color name="cj_sure">#F1F1F1</color>
+    <color name="layout_back">#D6D6D6</color>
+    <color name="button_press">#B4B4B4</color>
+
+    <!-- application -->
+    <color name="app_gray">#5B5B5B</color>
+    <color name="app_green">#5B9600</color>
+    <color name="app_orange">#FC8739</color>
+
+    <!-- CJ -->
+    <color name="cj_gray_text">#5b5b5b</color>
+
+
+    <color name="read_theme_0_text">#453417</color>
+    <color name="read_setting_bg">#2B211F</color>
+    <color name="read_catalog_progress_text">#d1d1d1</color>
+
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="red">#FF0000</color>
+
+    <color name="grey">#D6D7D7</color>
+
+</resources>

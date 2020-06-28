@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="xd.wsy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".common.MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="逸读"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity android:name=".activity.ReadActivity"></activity>
+        <activity
+            android:name=".activity.MyLoadActivity"
+            android:label="我的下载"
+            android:parentActivityName=".activity.SelfActivity"
+            android:theme="@style/Theme.AppCompat.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.SelfActivity" />
+        </activity>
+        <activity
+            android:name=".activity.AboutActivity"
+            android:label="关于"
+            android:parentActivityName=".activity.SelfActivity"
+            android:theme="@style/Theme.AppCompat.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.SelfActivity" />
+        </activity>
+        <activity
+            android:name=".activity.SelfDataActivity"
+            android:label="个人主页"
+            android:parentActivityName=".activity.SelfActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.SelfActivity" />
+        </activity>
+        <activity
+            android:name=".activity.Novel17ReadActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SelfActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity android:name=".activity.FolderActivity" />
+        <activity
+            android:name=".activity.LocalActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activity.HomePageActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activity.Novel17SearchActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activity.BiQuGeReadActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".activity.Novel17ListActivity"
+            android:parentActivityName=".activity.Novel17DetailActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.Novel17DetailActivity" />
+        </activity>
+        <activity
+            android:name=".activity.Novel17DetailActivity"
+            android:label="书籍详情-17K小说网"
+            android:parentActivityName=".activity.Novel17Activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.Novel17Activity" />
+        </activity>
+        <activity android:name=".activity.Novel17Activity" />
+
+        <service
+            android:name=".service.Novel17SearchService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.LoadService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.BiQuGeSearchService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.ZongHengSearchService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".activity.BiQuGeActivity" />
+        <activity
+            android:name=".activity.BiQuGeDetailActivity"
+            android:label="书籍详情-笔趣阁"
+            android:parentActivityName=".activity.BiQuGeActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.BiQuGeActivity" />
+        </activity>
+        <activity
+            android:name=".activity.BiQuGeListActivity"
+            android:label="章节目录-笔趣阁"
+            android:parentActivityName=".activity.BiQuGeDetailActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.BiQuGeDetailActivity" />
+        </activity>
+        <activity
+            android:name=".activity.BiQuGeSearchActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".activity.ZongHengActivity" />
+        <activity
+            android:name=".activity.ZongHengDetailActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activity.ZongHengListActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activity.ZongHengReadActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".activity.ZongHengSearchActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+    </application>
+
+</manifest>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_bg"
+    >
+    <TextView
+        android:id="@+id/tv_listMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="目  录"
+        android:textSize="22sp"
+        android:textColor="#000"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ListView
+        android:id="@+id/lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_listMenu"
+        android:layout_above="@+id/rl_startRead" />
+
+    <RelativeLayout
+        android:id="@+id/rl_startRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <Button
+            android:id="@+id/btn_list"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:background="@drawable/button_shape"
+            android:layout_centerHorizontal="true"
+            android:text="开始阅读"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+
+    <include
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        layout="@layout/loading" />
+
+</RelativeLayout>

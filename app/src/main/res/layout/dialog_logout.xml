@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#2C2A2A"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_confirmLogout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#673AB7"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FF0000"
+        android:text="确认注销"
+        android:textStyle="italic"
+        android:textSize="18sp"/>
+
+    <!--<Button
+        android:id="@+id/btn_add_gp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="添加指纹"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_add_user"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="添加用户"
+        android:textSize="18sp"/>-->
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#3F51B5"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="取 消"
+        android:textSize="18sp"/>
+
+</LinearLayout>
